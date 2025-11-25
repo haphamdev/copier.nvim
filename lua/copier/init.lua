@@ -39,8 +39,8 @@ function module.setup()
 		return split(toBePasted, "\n")
 	end)
 
-	map("n", "cV", '"*p')
-	map("n", "cP", 'V"*y')
+	map("n", "cvv", '"*p')
+	map("n", "cpp", 'V"*y')
 end
 
 return module
